@@ -108,7 +108,7 @@ nav a{
 }
 /*main section start*/
 main{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     max-width: 1000px;
     margin: 0px auto;
 }
@@ -174,7 +174,7 @@ main{
 
 }
 .icon-container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
@@ -183,5 +183,68 @@ main{
     
     padding: 30px;
 }
+.icon-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
 /*what i do section end*/
+/*resume section start*/
+.resume-container{
+    display: flex;
+    /* border: 3px solid darkblue; */
+}
+.resume-item-container{
+  margin-right: 30px;
+}
+.resume-title{
+    /* border: 1px solid yellow; */
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin:100px 0px ;
+
+}
+
+.resume-education-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.education-item-subject{
+    color:  #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.education-item-university{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 0px;
+
+}
+.experience-item-title{
+    color:  #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.experience-item-date{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.download-cv-resume{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/*resume section end*/
+
 /*main section end*/
